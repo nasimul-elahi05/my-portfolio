@@ -1,10 +1,78 @@
 body{
+    margin: 0;
     font-family: 'Ubuntu', sans-serif;
 }
-h1{
-    font-size: 50px;
+section{
+    height: 500px;
+    padding-bottom: 130px;
 }
-.name-highlight{
-    color: orange;
+h1{
+        font-size: 50px;
+    }
+    h3{
+        font-size: 25px;
+    }
+    h2{
+        font-size: 40px;
+    }
 
+.orange-highlight{
+    color: orange;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 3%;
+}
+.half-width img {
+    width: 100%;
+    size-adjust: 50%;
+    
+}
+.top-banner{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+
+}
+
+.link-button{
+    text-decoration: none;
+    background-color: blue;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: 700;
+    color: white;
+}
+.dream{
+    background-image: url("images/dream-bg.png");
+    
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+.single-box{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    height: 70%;
+}
+.experi-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full-stack{
+    border-left: 10px solid ;
+    border-image: linear-gradient(lightsalmon, orange );
+    border-image-slice: 1;
+    border-radius: 10px;
+}
+#junior-stack{
+    border-left: 10px solid;
+    border-image: linear-gradient(blue, cyan) ;
+    border-image-slice: 1;
+    border-radius: 10px;
+}
+footer p{
+    text-align: center;
 }
